@@ -1,0 +1,5 @@
+{% load helpers i18n %}
+<tr>
+  <th scope="row">{% trans "Gateway" %}</th>
+  <td>{% if gateway %}{{ gateway|linkify }}{% else %}{{ ''|placeholder }}{% endif %}</td>
+</tr>

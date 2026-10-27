@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netbox-prefix-gateway"
+version = "0.1.0"
+description = "NetBox plugin that adds an optional Gateway field to prefixes"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "ITTV-tools" }]
+
+[tool.setuptools.packages.find]
+include = ["netbox_prefix_gateway*"]
+
+[tool.setuptools.package-data]
+netbox_prefix_gateway = ["templates/**/*"]
