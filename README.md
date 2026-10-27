@@ -43,3 +43,7 @@ field and its data (it then shows up in the normal Custom Fields panel).
 ## Compatibility
 
 Tested with NetBox 4.7.
+
+## License
+
+Apache License 2.0, see [LICENSE](LICENSE).
